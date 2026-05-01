@@ -16,7 +16,11 @@
       {
         "command": "niroobas-extension.helloWorld",
         "title": "Hello World"
-      }
+      },
+      {
+      "command": "niroobas-extension.generateReadme",
+      "title": "Generate Basic README"
+    }
     ]
   },
   "scripts": {
