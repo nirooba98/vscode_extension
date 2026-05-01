@@ -1,8 +1,8 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('Hello');
-  vscode.window.showInformationMessage('Hello');
+  console.log('Hello world');
+  vscode.window.showInformationMessage('Hello world');
 
   const generateReadme = vscode.commands.registerCommand(
   'niroobas-extension.generateReadme',
